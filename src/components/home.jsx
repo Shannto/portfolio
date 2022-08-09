@@ -11,7 +11,7 @@ export default function Home() {
           <br />
           <br />
           <br />
-            <img src={Pic} alt="" style={{width:140,height:140,borderRadius: "50%"}} />
+            <img src={Pic} alt="" style={{width:140,height:150,borderRadius: "50%"}} />
           <h1 className="text-center display-3">Tanvir Hossen Shanto</h1>
         </div>
       

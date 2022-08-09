@@ -42,16 +42,18 @@ class App extends React.Component {
   render() {
     return (
       <div className="App text-center" >
-        
-        <div className="row mt-4 mx-2">
-          <div className="col d-flex justify-content-start">
-            <div className=" btn mx-2 btn-primary" onClick={this.handleClick} name="home">
+        <div className="d-none d-lg-block">
+        <div className=" row mt-4 mx-2">
+          <div className="col d-flex justify-content-start   ">
+            <div className=" btn mx-2 btn-primary  " onClick={this.handleClick} name="home">
               Home
             </div>
+           
           </div>
+          
           <div className="col d-flex justify-content-end">
             <div
-              className="btn mx-2 btn-success"
+              className="btn btn-success mx-2"
               onClick={this.handleClick}
               name="education"
             >
@@ -68,10 +70,44 @@ class App extends React.Component {
               Experience
             </div>
             <div className="btn mx-2 btn-success" onClick={this.handleClick} name="goals">
-              Goals
-            </div>{" "}
+              Contact
+            </div>
+          </div>
+        </div></div>
+
+{/* small screen */}
+        <div className="d-block d-lg-none">
+        <div className=" row m-2 ">
+          
+            <div className=" btn  btn-primary  " onClick={this.handleClick} name="home">
+              Home
+            </div>
+            </div>
+            <div className="row  mx-1">
+            <div
+              className="btn btn-success btn-sm mx-1 col"
+              onClick={this.handleClick}
+              name="education"
+            >
+              Education
+            </div>
+            <div className="btn btn-sm mx-1  btn-success col" onClick={this.handleClick} name="skills">
+              skills
+            </div>
+            <div
+              className="btn btn-success btn-sm mx-1 col"
+              onClick={this.handleClick}
+              name="experience"
+            >
+              Experience
+            </div>
+            <div className="btn btn-success btn-sm  col mx-1" onClick={this.handleClick} name="goals">
+              Contact
+            </div>
           </div>
         </div>
+
+
 
         {/* <Home /> */}
         {this.state.education ? <Education /> : null}

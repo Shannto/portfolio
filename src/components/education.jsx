@@ -6,7 +6,7 @@ export default function Education(){
         <div>
             <h1 className="my-4">Education</h1>
             <Row className="mx-5">
-            <Col sm="6">
+            <Col sm="6" className="mb-2">
     <Card body className="text-dark">
       <CardTitle tag="h5">
         Comilla University
@@ -20,14 +20,16 @@ export default function Education(){
     </Card>
   </Col>
 
-  <Col sm="6">
+  <Col sm="6" className="mb-2">
     <Card body className="text-dark">
       <CardTitle tag="h5">
 Ispahani Public School & College
       </CardTitle>
       <CardText>
         Secondary and Higher Secondary Education
+        
       </CardText>
+      <br />
       <Button>
         2010-2017
       </Button>
