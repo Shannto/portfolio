@@ -53,7 +53,7 @@ class App extends React.Component {
           
           <div className="col d-flex justify-content-end">
             <div
-              className="btn btn-success mx-2"
+              className="btn btn-success mx-2 "
               onClick={this.handleClick}
               name="education"
             >
@@ -85,23 +85,23 @@ class App extends React.Component {
             </div>
             <div className="row  mx-1">
             <div
-              className="btn btn-success btn-sm mx-1 col"
+              className="btn btn-success btn-sm m-1 col px-1"
               onClick={this.handleClick}
               name="education"
             >
               Education
             </div>
-            <div className="btn btn-sm mx-1  btn-success col" onClick={this.handleClick} name="skills">
+            <div className="btn btn-sm m-1  btn-success col" onClick={this.handleClick} name="skills">
               skills
             </div>
             <div
-              className="btn btn-success btn-sm mx-1 col"
+              className="btn btn-success btn-sm m-1 col"
               onClick={this.handleClick}
               name="experience"
             >
               Experience
             </div>
-            <div className="btn btn-success btn-sm  col mx-1" onClick={this.handleClick} name="goals">
+            <div className="btn btn-success btn-sm  col m-1" onClick={this.handleClick} name="goals">
               Contact
             </div>
           </div>
