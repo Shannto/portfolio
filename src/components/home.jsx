@@ -16,7 +16,7 @@ export default function Home() {
         </div>
       
       
-        <p className="text-center">Student of B.Sc (Engineering) in ICT</p>
+        <p className="text-center">Studying in ICT,  learning Javascript, done some projects.</p>
       </div>
     
   );
